@@ -1,3 +1,5 @@
+require Benchmark
+
 def countdown(number)
   counter = number
   
@@ -19,5 +21,5 @@ def countdown_with_sleep(number)
   end
   
   runtime = Benchmark.measure
-  print runtime
+  puts runtime
 end
