@@ -1,4 +1,4 @@
-require Benchmark
+
 
 def countdown(number)
   counter = number
@@ -21,6 +21,5 @@ def countdown_with_sleep(number)
     counter -=1
   end
   
-  runtime = Benchmark.measure
-  puts runtime
+  "HAPPY NEW YEAR!"
 end
